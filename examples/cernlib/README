@@ -1,0 +1,17 @@
+This example is the one present in the cernlib package. In the fortran
+directory, is the exact example code found in the cernlib package. In the ruby
+directory, is the same problem implemented in Ruby using the ruby-minuit 
+package.  
+
+To compare the output of the fits you can:
+
+1) > cd fortran
+   > minexam
+
+2) First make sure your RUBYLIB enviornment variable contains the location
+   of ruby-pwa...if this is not set you will get an error when the code 
+   attempts to load the Ruby Minuit module.
+
+   > cd ruby
+   > minexam.rb
+

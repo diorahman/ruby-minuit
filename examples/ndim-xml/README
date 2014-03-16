@@ -1,0 +1,8 @@
+This is example is a simple N-Dimension fitter that reads its input from XML
+files. The input XML file defines any number of data points. For each point,
+there must be a 'value','error' and any number of variables (any attribute that
+isn't 'value' or 'error').  The user can then define any MINUIT parameters they
+need and form an expression that will be fit to the data points.
+
+See test.xml for an example of what an input file should look like and test.rb
+for an example of how to use the fitter and access the results from MINUIT.
